@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/Travel to Vienna/aboutus.html">About us</a> |
+      <a href="/Travel to Vienna/mainpage.html">What to do in Vienna</a> |
+      <a href="/Travel to Vienna/planner.html" target="_blank"
+        >Travel Planner
+      </a>
+      |
+      <a href="/Travel to Vienna/regestrationForm.html" target="_blank"
+        >Book a room in Vienna</a
+      >
+    </nav>
+    <h1>Room Reservation Form</h1>
+    <h3>Personal Information</h3>
+    <form>
+      <label>First Name</label>
+      <input
+        type="text"
+        name="firstname"
+        placeholder="First Name"
+        size="40px"
+      />
+      <br />
+      <br />
+      <label>Last Name</label>
+      <input
+        type="text"
+        lastName="lastname"
+        placeholder="Last Name"
+        size="40px"
+      />
+      <br />
+      <br />
+      <h3>Date of Stay</h3>
+      <label>Check-In</label>
+      <input type="date" />
+      <br />
+      <br />
+      <label>Check-Out</label>
+      <input type="date" />
+      <br />
+      <br />
+      <h3>Number of Guests</h3>
+      <label>Adults</label>
+      <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <label>Children</label>
+      <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <h3>Room Type</h3>
+      <input type="radio" name="roomtype" value="standardroom" />Standard Room
+      <input type="radio" name="roomtype" value="superiorroom" />Superior Room
+      <input type="radio" name="roomtype" value="deluxeroom" />Deluxe Room
+      <input type="radio" name="roomtype" value="familyroom" />Family Room
+      <h3>Preferences</h3>
+      <p><label>Sea View</label> <input type="checkbox"</p>
+      <p><label>Garden View</label> <input type="checkbox"</p>
+      <p><label>Baby Bed</label> <input type="checkbox"</p>
+      <p><label>No smoking</label> <input type="checkbox" /></p>
+
+      <h3>Comments</h3>
+      <label>Do you have any questions?</label>
+      <p>
+        <textarea
+          name="message"
+          rows="10"
+          cols="60"
+          placeholder="Do you have any questions?"
+        ></textarea>
+      </p>
+      <br />
+      <button>Submit</button>
+      <button>Reset</button>
+    </form>
+  </body>
+</html>
